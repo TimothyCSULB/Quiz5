@@ -44,7 +44,6 @@ const displayResults = (result) => {
     };
 };
 
-
 // Handle form submission
 document.querySelector("form").addEventListener("submit", e => {
     // Cancel default behavior of sending a synchronous POST request

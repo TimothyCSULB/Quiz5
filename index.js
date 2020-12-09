@@ -2,6 +2,7 @@
 const express = require("express");
 const app = express();
 const dblib = require("./dblib.js");
+// const searchajax = require("./searchajax.js");
 
 const multer = require("multer");
 const upload = multer();
